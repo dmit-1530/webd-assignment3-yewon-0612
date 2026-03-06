@@ -158,6 +158,42 @@ footer {
 
 /* ***************** Add media query for the 588px screen ***************** */
 
+@media (min-width: 588px) {
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 2.75rem;
+    }
+
+    form div {
+        display: flex;
+        max-width: 35.375rem;
+        margin-top: .6875rem;
+    }
+
+    div input[type="email"] {
+        max-width: 23.9375rem;
+        max-height: 3.4375rem;
+        border-color: #A8A29E;
+    }
+
+    div .btn {
+        max-width: 10.8125rem;
+        max-height: 3.4375rem;
+    }
+
+    input[type="submit"] {
+        background-color: #E7E5E4;;
+        border-color: #A8A29E;
+    }
+
+}
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
