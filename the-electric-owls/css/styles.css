@@ -194,6 +194,28 @@ footer {
     }
 
 }
+
+@media (min-width: 980px) {
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .flex-container section {
+        max-width: calc((100% / 2) - (2rem / 2));
+    }
+
+    section .container {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    
+}
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
